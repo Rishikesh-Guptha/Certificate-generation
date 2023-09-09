@@ -9,6 +9,10 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route
+						path="/Landing"
+						element={<Landing />}
+					/>
+					<Route
 						index
 						element={<Landing />}
 					/>
