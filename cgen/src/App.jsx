@@ -6,20 +6,14 @@ import Details from "./pages/details/Details";
 function App() {
 	return (
 		<div className="App">
-			<div>hello</div>
 			<BrowserRouter>
 				<Routes>
-					<Route
-						to="/"
-						element={<Landing />}
-					/>
-
 					<Route
 						index
 						element={<Landing />}
 					/>
 					<Route
-						to="/Details"
+						path="/Details"
 						element={<Details />}
 					/>
 				</Routes>
