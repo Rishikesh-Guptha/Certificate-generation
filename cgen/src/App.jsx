@@ -5,7 +5,9 @@ import Details from "./pages/details/Details";
 
 function App() {
 	return (
-		<div className="App">
+		<div
+			className="App"
+			style={{ width: "100%", height: "100%" }}>
 			<BrowserRouter>
 				<Routes>
 					<Route

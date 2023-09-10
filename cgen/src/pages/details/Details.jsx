@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+import "./Details.css";
 
 const Details = () => {
 	const [name, setName] = useState("");
@@ -26,7 +27,7 @@ const Details = () => {
 		console.log(form_value);
 	};
 	return (
-		<div>
+		<div className="main">
 			<Link to="/Landing">
 				<button className="back">back</button>
 			</Link>
@@ -98,13 +99,13 @@ const Details = () => {
 						/>
 					</>
 				</form>
-				<div className="generate-area">
-					<button
-						className="generate"
-						onClick={generate_clicked}>
-						Generate
-					</button>
-				</div>
+			</div>
+			<div className="generate-area">
+				<button
+					className="generate"
+					onClick={generate_clicked}>
+					Generate
+				</button>
 			</div>
 		</div>
 	);
