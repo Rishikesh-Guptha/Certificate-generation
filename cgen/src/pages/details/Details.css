@@ -14,12 +14,10 @@ form {
 }
 
 input {
-    width: 50vw;
+    width: 50vh;
         margin-left: 3vw;
         margin-bottom: 2vw;
-    }
-    
-    .generate {
-        margin-left: 50%;
-        margin-right: 50%;
+}
+.generate {
+    margin-left: 50%;
 }

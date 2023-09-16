@@ -1,7 +1,10 @@
 /** @format */
+// cd Certificate_generation\cgen 
 import Landing from "./pages/landingpage/Landing";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Details from "./pages/details/Details";
+import Navbar from "./pages/navbar/Navbar";
+import Validate from "./pages/validate/Validate";
 
 function App() {
 	return (
@@ -9,6 +12,8 @@ function App() {
 			className="App"
 			style={{ width: "100%", height: "100%" }}>
 			<BrowserRouter>
+				<Navbar />
+
 				<Routes>
 					<Route
 						path="/Landing"
@@ -21,6 +26,10 @@ function App() {
 					<Route
 						path="/Details"
 						element={<Details />}
+					/>
+					<Route
+						path="/Validate"
+						element={<Validate />}
 					/>
 				</Routes>
 			</BrowserRouter>
