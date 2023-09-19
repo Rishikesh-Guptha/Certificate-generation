@@ -8,7 +8,13 @@
         margin-left: 45%;
         margin-top: 2rem;
         border-radius: 10px;
-        height: 2rem;
+        height: 2.5rem;
         width: 14rem;
         font-size: larger;
+        border: none;
+            box-shadow: 1px 1px 5px 1px;
+        }
+        
+        button:hover {
+            scale: 1.02;
 }

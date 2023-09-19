@@ -28,5 +28,10 @@ input {
         width: 8rem;
         border-radius: 10px;
         font-size: large;
-            border: 1px black solid;
+        border: none;
+            box-shadow: 1px 1px 5px 1px;
+        }
+        
+        button:hover {
+            scale: 1.02;
 }

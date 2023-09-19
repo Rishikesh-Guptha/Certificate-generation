@@ -12,7 +12,8 @@
     height: 2rem;
     font-size: larger;
     border-radius: 10px;
-    border: 1px black solid;
+    border: none;
+        box-shadow: 1px 1px 5px 1px;
 }
 
 .hash-denoting {
@@ -23,4 +24,7 @@
 
 .result {
     margin-left: 7rem;
+}
+button:hover {
+    scale: 1.02;
 }
