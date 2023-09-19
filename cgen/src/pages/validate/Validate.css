@@ -1,3 +1,26 @@
 .input-file-area {
     margin-top: 2rem;
 }
+.upload-text {
+    font-size: larger;
+    margin-bottom: 2rem;
+}
+
+.click-btn {
+    margin-left: 50%;
+    width: 10rem;
+    height: 2rem;
+    font-size: larger;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+
+.hash-denoting {
+    font-size: larger;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+
+.result {
+    margin-left: 7rem;
+}

@@ -6,3 +6,12 @@
 .validation {
     margin-left: 1.5rem;
 }
+.navbar-main {
+    width: 100%;
+    background-color: gray;
+}
+.generation,
+.validation {
+    font-size: x-large;
+    color: white;
+}

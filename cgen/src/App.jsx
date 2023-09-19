@@ -5,12 +5,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Details from "./pages/details/Details";
 import Navbar from "./pages/navbar/Navbar";
 import Validate from "./pages/validate/Validate";
+import "./App.css";
 
 function App() {
 	return (
 		<div
 			className="App"
-			style={{ width: "100%", height: "100%" }}>
+			style={{ width: "100%", height: "100%", padding: "0%", margin: "0px" }}>
 			<BrowserRouter>
 				<Navbar />
 

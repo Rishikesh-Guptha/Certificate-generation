@@ -5,19 +5,28 @@
 .detail-title {
     font-size: x-large;
     font-weight: bold;
+    margin-left: 1rem;
 }
 
 form {
     display: flex;
     flex-direction: column;
     margin-bottom: 5vh;
+    margin-left: 5rem;
 }
 
 input {
     width: 50vh;
         margin-left: 3vw;
         margin-bottom: 2vw;
+        border-radius: 10px;
+            height: 2rem;
 }
 .generate {
     margin-left: 50%;
+    height: 2rem;
+        width: 8rem;
+        border-radius: 10px;
+        font-size: large;
+            border: 1px black solid;
 }

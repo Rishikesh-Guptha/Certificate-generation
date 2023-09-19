@@ -1,0 +1,14 @@
+.title {
+    font-size: xx-large;
+    margin-left: 65vh;
+        margin-top: 4rem;
+    }
+    
+    .get {
+        margin-left: 45%;
+        margin-top: 2rem;
+        border-radius: 10px;
+        height: 2rem;
+        width: 14rem;
+        font-size: larger;
+}
